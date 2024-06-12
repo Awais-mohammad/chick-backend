@@ -1,0 +1,10 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "plugins": ["node"],
+    "rules": {
+      "node/no-unsupported-features/es-syntax": ["error", { "ignores": ["modules"] }]
+    }
+  }
